@@ -2,11 +2,12 @@ import 'package:conditional_builder_null_safety/conditional_builder_null_safety.
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
+import 'package:social_app/cubit/Social_cubit/cubit.dart';
+import 'package:social_app/cubit/Social_cubit/states.dart';
 import 'package:social_app/models/post_model.dart';
-import 'package:social_app/module/Social_cubit/states.dart';
-import 'package:social_app/shared/styles/icon_broken.dart';
 
-import 'Social_cubit/cubit.dart';
+
+
 
 class FeedsScreen extends StatelessWidget {
   const FeedsScreen({Key? key}) : super(key: key);

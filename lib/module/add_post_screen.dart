@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
-import 'Social_cubit/cubit.dart';
-import 'Social_cubit/states.dart';
+import 'package:social_app/cubit/Social_cubit/cubit.dart';
+import 'package:social_app/cubit/Social_cubit/states.dart';
+
 
 class AddPostScreen extends StatelessWidget {
 

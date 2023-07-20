@@ -5,9 +5,10 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:social_app/cubit/Social_cubit/states.dart';
 import 'package:social_app/models/post_model.dart';
 import 'package:social_app/models/user_model.dart';
-import 'package:social_app/module/Social_cubit/states.dart';
+
 import 'package:social_app/module/add_post_screen.dart';
 import 'package:social_app/module/chats_screen.dart';
 import 'package:social_app/module/feeds_screen.dart';

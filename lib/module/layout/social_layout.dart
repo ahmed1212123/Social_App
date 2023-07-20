@@ -1,14 +1,14 @@
-import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+
 import 'package:flutter_iconly/flutter_iconly.dart';
+import 'package:social_app/cubit/Social_cubit/cubit.dart';
+import 'package:social_app/cubit/Social_cubit/states.dart';
 import 'package:social_app/module/add_post_screen.dart';
-import 'package:social_app/module/login/login_screen.dart';
-import 'package:social_app/shared/components.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:social_app/module/Social_cubit/cubit.dart';
-import 'package:social_app/module/Social_cubit/states.dart';
-import 'package:social_app/shared/styles/icon_broken.dart';
+
+
+
 
 class SocialLayout extends StatelessWidget {
   const SocialLayout({Key? key}) : super(key: key);

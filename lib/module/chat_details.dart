@@ -2,9 +2,10 @@ import 'package:conditional_builder_null_safety/conditional_builder_null_safety.
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
+import 'package:social_app/cubit/Social_cubit/cubit.dart';
+import 'package:social_app/cubit/Social_cubit/states.dart';
 import 'package:social_app/models/message_model.dart';
-import 'package:social_app/module/Social_cubit/cubit.dart';
-import 'package:social_app/module/Social_cubit/states.dart';
+
 import '../models/user_model.dart';
 
 class ChatDetailsScreen extends StatelessWidget {

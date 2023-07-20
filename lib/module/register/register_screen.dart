@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
-import 'package:social_app/layout/social_layout.dart';
-import 'cubit/cubit.dart';
-import 'cubit/states.dart';
+
+import 'package:social_app/cubit/cubit_register/cubit.dart';
+import 'package:social_app/cubit/cubit_register/states.dart';
+
+import 'package:social_app/module/layout/social_layout.dart';
+
 
 class RegisterScreen extends StatelessWidget {
   var formkey = GlobalKey<FormState>();

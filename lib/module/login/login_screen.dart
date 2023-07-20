@@ -1,10 +1,11 @@
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:social_app/layout/social_layout.dart';
-import 'package:social_app/module/Social_cubit/cubit.dart';
-import 'package:social_app/module/login/cubit/cubit.dart';
-import 'package:social_app/module/login/cubit/states.dart';
+import 'package:social_app/cubit/Social_cubit/cubit.dart';
+import 'package:social_app/cubit/cubit_login/cubit.dart';
+import 'package:social_app/cubit/cubit_login/states.dart';
+import 'package:social_app/module/layout/social_layout.dart';
+
 import '../../shared/components.dart';
 import '../../shared/network/cache_helper.dart';
 import '../register/register_screen.dart';
